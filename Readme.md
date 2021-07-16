@@ -1,36 +1,43 @@
 #  AutoTestCase Maker
 
-Hi! I'm Abheet this tool is created to easeout the process of test casenter code heree creation, which done by many of QA guys in excelsheets! which is quite time consuming process. As we all knew preparing test cases is a time consuming process and eventually when scenarios will remains same in most of the time.
+Hi! I'm Abheet I have tried to provide small solution for automating the testcases with the help of this tool, which is quite time consuming which QA guys doing in excelsheets!  
+
+Since we all knows that preparing test cases is a time consuming event and in cases where scenarios will remains same in most of the time, this tool definatily helps you to some extent. As it also upload test cases into TESTRail automatically.
+>if TestRails account is configured (i.e in config.ini file).  
+> TOOL GENERATES THE CSV FILE AS OUTPUT! WHICH CAN BE USED TO BULK UPLOAD (TESTCASES INTO TESTRAIL MANUALLY)
 
 
 # About It
-**AutoTestCase**  tool helps us **automate API level testcases.**
-In API testing we have to cover some basic validations which will be common 
-for most of the API parameters , like covering **Positive and Negative 
-scenarios**  like to cover:
+**AutoTestCase**  tool helps us to **automate RESTful API's testcases from their swaggers or CSV template file**
+In API testing we have to cover some basic validations which will be common for most of API , like covering **Positive and Negative scenarios**  like :
  1. MIN/MAX lengths check
- 2. Invalid data
- 3. Mandatory
- 4. Optional param validations etc.
+ 2. Invalid data values check
+ 3. Mandatory param checks
+ 4. Optional param checks 
+ 5. Dead API checks etc.
 
-This will become more tedious when some APIs are so huge in terms of request/response params i.e. hundreds of request/response parameters!! that it tooks hours of efforts to draft testcase and paining activity too!!
+This will become more tedious work when some APIs are so **huge** in terms size of request/response params 
+> i.e. hundreds of request/response parameters! 
 
-To overcome the problem, I  have tried to solve the problem with a small solution where we can auto generate test cases from swagger or from CSV files  with this **AutoTestCase** So that testcases can be drafted quickly and acurately, this tool will generates testcases in no time for huge APIs too.
+that it tooks hours of efforts to draft testcase for those api.
+
+To overcome the problem, I  have tried to solve it with a solution of automating the test cases drafting process. 
+
+From swagger or from CSV files  **AutoTestCase** tool can generate testcases acurately even for huge APIs. in no time.
 
 
-## Scenarios Covered will be:
+## Type of cases covered:
 
-It actually cover/create 4 test cases for each request parameters
-(i.e Below Scenarios are configurable). 
+It will cover/create **FOUR** test cases  per request parameter:
 
- 1. Two Positive test cases 
+ 1. **Two POSITIVE cases**
 	 > i.e Valid Value and Mandatory Check
 	 
-2. Two Negative  test cases 
+2. **Two NEGITIVE  cases**
 	 > i.e Blank Value and Invalid Value
 
-If test cases are less in numbers it can automatically upload to TestRail too.
-**If test cases count exceed 100 count (configurable)  then we can upload the generated CSV file directly to TestRail manually.**
+If test cases are less in numbers (i.e 100) it will automatically uploaded to TestRail with this tool.
+**If test cases count exceed 100 count (***configurable**)  then we can upload the generated CSV file directly to TestRail **manually.****
 >
 ## Benefits
 
@@ -39,43 +46,60 @@ IT SAVES TIME AND ENERGY (Especially your precious EYES).
 
 ### How to setup and run:
 #### Setup ####
-> If Running Locall y:
-	- Must have Python 3.x.x installed on  your System
+> Must have Python 3.x.x installed on  your System
 	- `cd \Your working dir\`
 	- `pip3 install -r requirement.txt`
 	- After all packages installed with above command
 #### How to Run ####
-> If Running Locally:
- 1. In your terminal/Command prompt Go to your working dir
- 2. `Python3 StartScript.py`
- 3. Once GUI Opened
- 4. Browse the Swagger file and click on Proceed button.
- > (Script might come up with some swagger errors,as it support swagger 2.0 only)
- 6. Then use the Most Prefered way, Use Temaplate to prepare the CSV file refer CSV_testcase_TEMPLATE.csv file to prepare it accordingly. Put all your API/Parameters details w.r.t template and save the csv file.
+>1. In your terminal/command prompt goto your working directory
+> 2. >Python3 StartScript.py
+> 3. Once GUI Opened.
+> 4. Browse the Swagger file and click on Proceed button. 			
 
-## How use CSV Option:
-    1. Upload the CSV file you may created w.r.t template file   CSV_TestCase_TEMPLATE.csv file
-    2. Fill the GUI form and MUST click on CHECKBOX i.e. I want to generate with csv
-    3. Hit the Generate button! and that's it, the test case will be generated  automatically.
+>***Script might come up with some swagger errors,as it support swagger 2.0 only***
+
+Then refer CSV_testcase_TEMPLATE.csv file, Yon can prepare your template based upon API requirements i.e.
+ >Put all your API/Parameters details w.r.t template and save the CSV file.
+ 1. Context url
+ 2. ParamName
+ 3. Maxlength
+ 4. Mandatory or not
+ 5. Request Payload
+ 6. Response etc
+ 
+
+
+## How use CSV template:
+    1. Upload the CSV file you just created w.r.t template file CSV_TestCase_TEMPLATE.csv 
+    2. Fill the GUI form and MUST click on CHECKBOX i.e. I want to generate with csv before clicking generate button!
+    3. After it hit the generate button! and wait.
+    4. Soon you will get the popup Notification that test case are generated Successfully.
 
 # Addon functionality
 >**Test Case Clubbed functionality!!**
-Auto test case generation tool actually generate test case for each and every request parameter and this might increase the test case count massively **(in 1000s)** so to easeout we have clubbing options available too. 
+Auto test case generation tool actually generate test case for each and every request parameter and this might increase the test case count massively **(in 1000s)** so to trim down the number of testcases, we have clubbing options available here. 
 
-Here we can club **OPTIONAL params** in a single test case. However for all required params there will be still 4 test cases for each required param.
+So with it we can club **n number of OPTIONAL params** in a single test case. 
+
+>However for all required params there will be still 4 test cases for each required param.
+>
 We can select how many optional params should be added in a single test case, and when to use this functionality!
 
->To use the above case Go to Src\config.ini file and set values as required.
+>To use the above case 
+>***Go to Src\config.ini file and set values as required.***
 
 **PARAMETER_CLUB = 2**
 
-> i.e. how many optional params need to be clubbed
+> ***i.e. how many optional params need to be clubbed, here 2 optional params will be clubbed into single testcase.****
 
 **API_PARAM_COUNT_TRIGGER = 40**
- > If API params count is more than 40 (i.e. 40 param into 4 test scenarios = 160 testcase) then it will be triggered and clubbed test cases will be created.
+ > ***If API params count is more than 40 (i.e. 40 param into 4 test scenarios = 160 testcase) then it will be triggered and clubbed test cases will be created.***
 
-Test Cases were uploaded as soon as script finished with auto generation and
-will only uploaded to testRail if count of test cases is not exceeds to 100
+Also TestCases will be uploaded to TESTRAIL as soon as script finished with auto generation process.
+
+**Due to performance issues, if test cases generated will be more than 100 TC, then you need to manually upload the test case available in CSV file generated by this tool as OUTPUT file**
+
+[Refer: HOW to Upload testcases in TestRail](https://www.gurock.com/testrail/docs/user-guide/howto/import-csv)
 
 >I hope it will saves lots of QA time and efforts, Use it and SHARE it.
 

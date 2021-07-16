@@ -1,0 +1,4501 @@
+External Reference(project details),Reference to task,Sections,Title,Objectives,Preconditions,Steps,Expected ResultsTicket References
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param1_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 94799 i.e. [InValid]
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param1."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param1_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 575 i.e. [LVT] and MAX Value : 54
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param1 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param1_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = """" i.e. [MVT]
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param1 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param1_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 640166807460475650825877114913780345133127299987702452  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param1_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 604285062534343862508079267253874278244958351524707849 i.e. [MVT]
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param2_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d i.e. [InValid]
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param2."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param2_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d i.e. [LVT] and MAX Value : 25
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param2 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param2_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = """" i.e. [MVT]
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param2 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param2_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param2_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d i.e. [MVT]
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param3_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = BTFN i.e. [InValid]
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param3."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param3_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = T i.e. [LVT] and MAX Value : 25
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param3 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param3_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = """" i.e. [MVT]
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param3 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param3_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = wELwkuDkUnkfNGxQPTgOBpRAR  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param3_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = FsEtVlVwYSvPvRRCAXGdYEjbH i.e. [MVT]
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param4_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT i.e. [InValid]
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param4."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param4_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT i.e. [LVT] and MAX Value : 25
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param4 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param4_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = """" i.e. [MVT]
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param4 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param4_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param4_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT i.e. [MVT]
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param5_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y i.e. [InValid]
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param5."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param5_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y i.e. [LVT] and MAX Value : 25
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param5 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param5_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = """" i.e. [MVT]
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param5 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param5_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param5_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y i.e. [MVT]
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param6_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = LB89H0YKN i.e. [InValid]
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param6."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param6_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = YZJKGWSN i.e. [LVT] and MAX Value : 25
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param6 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param6_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = """" i.e. [MVT]
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param6 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param6_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = NFOZITWSVXRDYBVZXWERALOWS  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param6_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = Z6WIQ769VE0APMD3ZX4FWD7A2 i.e. [MVT]
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param7_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS i.e. [InValid]
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param7."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param7_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS i.e. [LVT] and MAX Value : 25
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param7 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param7_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = """" i.e. [MVT]
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param7 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param7_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param7_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS i.e. [MVT]
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param8_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD i.e. [InValid]
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param8."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param8_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD i.e. [LVT] and MAX Value : 19
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param8 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param8_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = """" i.e. [MVT]
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param8 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param8_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param8_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD i.e. [MVT]
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param1_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 600658678 i.e. [InValid]
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param1."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param1_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 878 i.e. [LVT] and MAX Value : 54
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param1 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param1_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = """" i.e. [MVT]
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param1 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param1_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 424801890068354379325830983786518317787279214237939340  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param1_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 217957735816995515090825492370285715097364434332120171 i.e. [MVT]
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param2_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d i.e. [InValid]
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param2."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param2_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d i.e. [LVT] and MAX Value : 25
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param2 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param2_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = """" i.e. [MVT]
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param2 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param2_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param2_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d i.e. [MVT]
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param3_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = VmdwyS i.e. [InValid]
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param3."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param3_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = suZGrQ i.e. [LVT] and MAX Value : 25
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param3 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param3_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = """" i.e. [MVT]
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param3 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param3_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = auVdTxaqQEIRXJmKYodqRYhbw  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param3_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = OYZdWuSwnbMHyYTFuaCcBIjQq i.e. [MVT]
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param4_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT i.e. [InValid]
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param4."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param4_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT i.e. [LVT] and MAX Value : 25
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param4 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param4_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = """" i.e. [MVT]
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param4 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param4_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param4_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT i.e. [MVT]
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param5_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y i.e. [InValid]
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param5."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param5_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y i.e. [LVT] and MAX Value : 25
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param5 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param5_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = """" i.e. [MVT]
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param5 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param5_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param5_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y i.e. [MVT]
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param6_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = 8Z i.e. [InValid]
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param6."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param6_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 =  i.e. [LVT] and MAX Value : 25
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param6 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param6_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = """" i.e. [MVT]
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param6 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param6_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = OOP4Y0BR5C1VI23D0IECC59VE  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param6_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = LHH1EEZFLB87YG0TW99YSVKFG i.e. [MVT]
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param7_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS i.e. [InValid]
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param7."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param7_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS i.e. [LVT] and MAX Value : 25
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param7 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param7_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = """" i.e. [MVT]
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param7 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param7_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param7_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS i.e. [MVT]
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param8_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD i.e. [InValid]
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param8."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param8_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD i.e. [LVT] and MAX Value : 19
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param8 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param8_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = """" i.e. [MVT]
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param8 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param8_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param8_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD i.e. [MVT]
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param1_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 4763 i.e. [InValid]
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param1."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param1_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 5994168 i.e. [LVT] and MAX Value : 54
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param1 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param1_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = """" i.e. [MVT]
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param1 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param1_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 560735997338194048393420206765321277855019203212721097  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param1_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Details
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param1
+
+Test data:
+param1 = 503875223899395351954163557259159303302317876418226811 i.e. [MVT]
+
+However valid value would be:2.0.0
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param2_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d i.e. [InValid]
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param2."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param2_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d i.e. [LVT] and MAX Value : 25
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param2 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param2_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = """" i.e. [MVT]
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param2 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param2_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param2_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param2
+
+Test data:
+param2 = 3260a64e-ed91-443c-ab87-803bbe6ac04d i.e. [MVT]
+
+However valid value would be:3260a64e-ed91-443c-ab87-803bbe6ac04d
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param3_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = uazr i.e. [InValid]
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param3."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param3_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = Tv i.e. [LVT] and MAX Value : 25
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param3 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param3_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = """" i.e. [MVT]
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param3 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param3_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = HRJwhIiUBmgqWvmlYInwevKdL  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param3_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param3
+
+Test data:
+param3 = GozVXoIhmkgDsPyJUwrPPCCZI i.e. [MVT]
+
+However valid value would be:TestApp
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param4_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT i.e. [InValid]
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param4."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param4_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT i.e. [LVT] and MAX Value : 25
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param4 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param4_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = """" i.e. [MVT]
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param4 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param4_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param4_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+Following Params are required:
+Param1
+Param2
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param4
+
+Test data:
+param4 = DSRT i.e. [MVT]
+
+However valid value would be:DSRT
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param5_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y i.e. [InValid]
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param5."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param5_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y i.e. [LVT] and MAX Value : 25
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param5 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param5_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = """" i.e. [MVT]
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param5 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param5_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param5_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param5
+
+Test data:
+param5 = Y i.e. [MVT]
+
+However valid value would be:Y
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param6_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = RRDPFE93 i.e. [InValid]
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param6."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param6_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = U i.e. [LVT] and MAX Value : 25
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param6 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param6_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = """" i.e. [MVT]
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param6 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param6_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = RWYIZENTKD304JVTJM8W8FE81  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param6_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param6
+
+Test data:
+param6 = 6BGSES3XNQDFPFOUYU8CQ5ND6 i.e. [MVT]
+
+However valid value would be:en-US
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param7_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS i.e. [InValid]
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param7."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param7_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS i.e. [LVT] and MAX Value : 25
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param7 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param7_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = """" i.e. [MVT]
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param7 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param7_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param7_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param7
+
+Test data:
+param7 = DEPOSITS i.e. [MVT]
+
+However valid value would be:DEPOSITS
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param8_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD i.e. [InValid]
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param8."
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param8_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD i.e. [LVT] and MAX Value : 19
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param8 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_NEG_param8_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = """" i.e. [MVT]
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param8 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param8_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools/get - POST,PV_PROJECT_NAME_POST_POS_param8_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param1
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param8
+
+Test data:
+param8 = PASSWORD i.e. [MVT]
+
+However valid value would be:PASSWORD
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+Response Sample:
+
+{
+    ""opstat"": ""ok"",
+    ""response"": {
+        ""revision"": {
+            ""body_tgt"": ""..."",
+            ""ctime"": ""...""
+        }
+    }
+}"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param9_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825 i.e. [InValid]
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param9."
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param9_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825 i.e. [LVT] and MAX Value : 25
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param9 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param9_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = """" i.e. [MVT]
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param9 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param9_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param9_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825 i.e. [MVT]
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param10/{id}_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL i.e. [InValid]
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param10/{id}."
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param10/{id}_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL i.e. [LVT] and MAX Value : 25
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param10/{id} Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param10/{id}_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = """" i.e. [MVT]
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param10/{id} Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param10/{id}_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param10/{id}_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL i.e. [MVT]
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param9_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825 i.e. [InValid]
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param9."
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param9_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825 i.e. [LVT] and MAX Value : 25
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param9 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param9_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = """" i.e. [MVT]
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param9 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param9_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param9_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825 i.e. [MVT]
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param10/{id}_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL i.e. [InValid]
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param10/{id}."
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param10/{id}_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL i.e. [LVT] and MAX Value : 25
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param10/{id} Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param10/{id}_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = """" i.e. [MVT]
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param10/{id} Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param10/{id}_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param10/{id}_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL i.e. [MVT]
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param9_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825 i.e. [InValid]
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param9."
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param9_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825 i.e. [LVT] and MAX Value : 25
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param9 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param9_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = """" i.e. [MVT]
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param9 Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param9_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param9_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param9
+
+Test data:
+param9 = 825 i.e. [MVT]
+
+However valid value would be:825
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param10/{id}_InValid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL i.e. [InValid]
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ InValid param10/{id}."
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param10/{id}_LVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL i.e. [LVT] and MAX Value : 25
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param10/{id} Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_NEG_param10/{id}_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = """" i.e. [MVT]
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 400 
+
+Validation message should state:
+
+ param10/{id} Length is not correct"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param10/{id}_Valid,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL  i.e. [Valid] Note: Ask Platfrom Team for SIT values
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"
+PV_PROJECT_NAME,Jira12333,/tools - GET,PV_PROJECT_NAME_GET_POS_param10/{id}_MVT,Execution should be successful upon passing the value in the parameter.,"1: API code should be deployed to server 
+ 2: PV_PROJECT_NAME API should be published 
+","1. Goto SOAP UI/Postman tool.
+2. Hit API with following details.
+
+API Endpoint URL:
+https://api.xyz.com/
+
+Required Params are:
+param9
+
+
+-------------Test Scenario-------------
+
+Payload with REQUEST Parameter(s):
+param10/{id}
+
+Test data:
+param10/{id} = WSDL i.e. [MVT]
+
+However valid value would be:WSDL
+
+**NOTE ABOVE STEPS WERE GENERATED WITH AUTOMATION","Http Status: 20x
+Message: 00-SUCCESS
+
+"

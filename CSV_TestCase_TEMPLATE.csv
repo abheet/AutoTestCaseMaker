@@ -1,0 +1,29 @@
+Method,Context,Param_name,Param_value,Required[R],Max_length,Param descriptions,data_type(Numeric/String/AN),Response_sample (only Success -200 case and that should be first row of method
+POST,/tools/get,param1,2.0.0,R,55,Details,Numeric,"{
+  ""opstat"": ""ok"",
+  ""response"": {
+    ""revision"": {
+      ""body_tgt"": ""..."",
+      ""ctime"": ""...""
+    }
+  }
+}"
+POST,/tools/get,param2,3260a64e-ed91-443c-ab87-803bbe6ac04d,,,,,
+POST,/tools/get,param3,TestApp,,,,String,
+POST,/tools/get,param4,DSRT,,,"Following Params are required:
+Param1
+Param2",,
+POST,/tools/get,param5,Y,,,,,
+POST,/tools/get,param6,en-US,,,,AN,
+POST,/tools/get,param7,DEPOSITS,,,,,
+POST,/tools/get,param8,PASSWORD,,20,,,"{
+  ""opstat"": ""ok"",
+  ""response"": {
+    ""revision"": {
+      ""body_tgt"": ""..."",
+      ""ctime"": ""...""
+    }
+  }
+}"
+GET,/tools,param9,825,R,,,,
+GET,/tools,param10/{id},WSDL,,,,,
